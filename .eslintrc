@@ -9,7 +9,7 @@
   "plugins": ["@typescript-eslint", "prettier"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 13,
     "sourceType": "module"
   },
   "rules": {

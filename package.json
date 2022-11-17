@@ -14,10 +14,16 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "customEditors": [
       {
-        "command": "macglass.helloWorld",
-        "title": "Hello World"
+        "viewType": "macglass.editor",
+        "displayName": "macglass",
+        "selector": [
+          {
+            "filenamePattern": "*.mcgls"
+          }
+        ],
+        "priority": "default"
       }
     ]
   },
